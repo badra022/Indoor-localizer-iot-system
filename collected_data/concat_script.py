@@ -125,7 +125,7 @@ except:
     pass
 
 # store the new train and test files
-df_train.to_csv(os.path.join('train.csv'), encoding='utf-8', index=False)
-df_test.to_csv('test.csv', encoding='utf-8', index=False)
+df_train.to_csv(os.path.join('./train.csv'), encoding='utf-8', index=False)
+df_test.to_csv('./test.csv', encoding='utf-8', index=False)
 
 print("saved successfully.")

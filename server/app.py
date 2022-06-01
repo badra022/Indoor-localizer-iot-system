@@ -8,7 +8,7 @@ import numpy as np
 #--------------------------------#
 db_file = 'db/database_new.db'
 model = pickle.load(open('XGBoost.sav', 'rb'))
-features = ['El-lab', 'El-modarag', 'Redmi', 'youssef', 'Farouk', 'Ramadan', 'badra22', 'STUDBME2', 'ARC3', 'CMP_LAB2', 'CMP_LAB3', 'STUDBME1', 'CMP_LAB1', 'CMP_LAB4', 'CMP-lab1', 'ARC1', 'BMEStudentLab3', 'STUDBME3']
+features = ['WE_41B884', 'youssef', 'STUDBME2', 'CMP_LAB3', 'El-modarag','STUDBME1', 'CMP_LAB4','CMP_LAB2', 'ARC3', 'Sbme-Staff','CMP_LAB1', 'El-lab', 'Mo_Hamza', 'Farouk','RehabLab','Gamil','TP-Link_463C','redmi', 'ARC1']
 
 mobile_map = {
       16 :(-0.8, 7.8),

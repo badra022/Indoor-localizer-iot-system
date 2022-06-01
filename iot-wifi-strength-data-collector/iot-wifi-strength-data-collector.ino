@@ -78,7 +78,7 @@ void loop() {
       Serial.print(',');
    }
    /* print out the label you are filling in the csv for your current readings */
-   Serial.print("HW 11");
+   Serial.print("HW 12");
 /*   
    '3201 upper left':16, 
    '3201 upper right':1,

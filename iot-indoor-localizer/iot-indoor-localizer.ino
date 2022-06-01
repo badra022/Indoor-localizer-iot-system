@@ -97,7 +97,7 @@ void sendJSON(const char* server_url, const char* route, const char* dict_str){
     String service_url = String(server_url) + String(route);
 
     /* open a connection with this service in the server */
-    http.begin(client, "http://python-server-model.herokuapp.com/result");
+    http.begin(client, "http://python-server-model.herokuapp.com/addlocation");
 
     /* set the datatype you will send */
     http.addHeader("Content-Type", "application/json");
